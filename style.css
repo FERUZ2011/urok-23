@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.improve{
+    width: 90%;
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.improve__image{
+    width: 45%;
+}
+.improve__left-container{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.improve__title{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.improve__button-container{
+    overflow: hidden;
+    border: 2px solid rgb(181, 181, 181);
+    border-radius: 8px;
+    border-collapse: collapse;
+}
+.improve__btn{
+    border: 1px solid rgb(181, 181, 181);
+    background-color: transparent;
+    width: 100%;
+    padding: 15px 0;
+}
+.left-radius{
+border-radius: 8px 0 0 8px;
+}
+.right-radius{
+    border-radius: 0 8px 8px 0;
+}
+@media screen and (max-width: 550px){
+    .improve{
+        flex-direction: column;
+        gap: 40px  ;
+    }
+    .improve__image{
+        width: 90%;
+    }
+    .improve__left-container{
+        width: 90%;
+    }
+}
+
+.cards{
+    width: 90%;
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+    background-color: gray;
+    gap: 20px;
+}
+.cards__card{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   gap: 20px;
+}
+.cards__image{
+    width: 50px ;
+}
+@media screen and (max-width: 550px) {
+    .cards{
+        flex-direction: column;
+    }
+}
